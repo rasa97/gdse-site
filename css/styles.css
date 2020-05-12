@@ -1697,7 +1697,7 @@ textarea:hover {
   color: #e2dedb;
 }
 
-#what, #why, #usage, #proscons, #modelling{
+#what, #why, #usage, #proscons, #modelling #quiz{
 	height: 100vh;
 }
 #submit {
@@ -1725,4 +1725,21 @@ textarea:hover {
 }
 #fact2{
 	border-bottom:solid 1px #b3aca7;
+}
+
+.question{
+    font-weight: 600;
+}
+.answers {
+    margin-bottom: 20px;
+}
+
+#quiz input[type=radio] {
+	height: 1rem;
+    width: 25px;
+}
+
+#quiz label {
+    display: block;
+    margin-bottom: 0.5rem;
 }
