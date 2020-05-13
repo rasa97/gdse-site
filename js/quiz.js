@@ -18,13 +18,12 @@ var myQuestions = [
         correctAnswer: 'c'
     },
     {
-        question: "Any question",
+        question: "FtS is always a better option than stand-alone development",
         answers: {
-            a: 'test',
-            b: 'test2',
-            c: 'test3'
+            a: 'True',
+            b: 'False'
         },
-        correctAnswer: 'c'
+        correctAnswer: 'b'
     }
 ];
 
