@@ -1851,7 +1851,7 @@ textarea:hover {
     margin-bottom: 2rem;
     height: auto;
     width:100%;
-    background-image: linear-gradient(to right, #708090	 , white);
+    background-image: linear-gradient(to right, #DCDCDC , white);
 }
 
 .ico-wrap {
