@@ -1896,13 +1896,13 @@ h2 {
 	display: none;
 }
 
-#modelBtnSubmit{
+.modelBtnSubmit{
 	background: transparent;
 	margin-top:3rem;
 	border: 3px solid black;
     letter-spacing: 4px;
     padding: 10px;
 }
-#modelBtnSubmit:hover{
+.modelBtnSubmit:hover{
 	background: rgb(228, 225, 225);
 }
