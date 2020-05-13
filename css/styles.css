@@ -1849,13 +1849,8 @@ textarea:hover {
     border-radius: 0.5rem;
     box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
     margin-bottom: 2rem;
-    height: 200px;
-}
-
-.wrap:hover {
-    background: linear-gradient(135deg,#7487b0 0%, #99a0bf 100%);
-    color: white;
-
+    height: auto;
+    width:100%;
 }
 
 .ico-wrap {

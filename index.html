@@ -291,26 +291,31 @@
                          <div class="card-title" style="color:#313B3B"> Co-ordination</div>
                          <div class="divider"></div>
                          <p style="text-align: left"></p>
-                         <button class="button" id="button">Managerial Role</button>
+                         <button class="button" data-modal="ModalC1" onclick="displayModal(this)">Managerial Role</button>
                          <!-- The Modal -->
-                         <div id="myModal" class="modal">
+                         <div id="ModalC1" class="modal">
                             <!-- Modal content -->
                             <div class="modal-content">
-                               <span class="close">×</span>
+                              <span class="close" onclick="closeDialog(this)">&times;</span>
                                <div class="modal-body">
+                                  <p>
+                                     (Ågerfalk et al. 2005) defines temporal distance as the measure of dislocation in time experienced by the two parties how wish to interact. We will refer to this as the time-one challenge. (Olsson, Helena (2006)) did a study where they conducted interviews with managers, project leaders and technical staff regarding Follow the Sun. In these interviews, the project manager of Intel states that usually, the higher up on the hierarchy one is, the more flexibility in time is expected from them. This means that managers can be subject to work-related calls at 10 or 11 pm at night. The manager of HP states that the lag of responses can be frustrating and technical staff may need to go out of their way to keep up. This can result in the burnout of people. This raises a couple of challenges in FtS surrounding project managers. Managers have to make sure that the workflow is sustainable for their technical staff, to avoid the burnout of their staff. Managers also are responsible for taking charge when urgent situations occur. Temporal distance may lead to lag of responses which can cost time in such situations. So, within the general challenges of co-ordination, we formulate these new challenges.
+                                  </p>
+                                  <p>
+                                     Regarding scalability, many businesses grow rapidly and might resort to globally distirbuted teams. In these cases, the rapid growth might be the reason why FtS is failing. The teams are not prepared to deal with the changes, thus problems manifest at the very beginning.
+                                  </p>
+                                </div>
+
                                   <div class="row mbr-justify-content-center">
-                                     <div class="col-lg-6 mbr-col-md-10">
+
                                         <div class="wrap" >
                                            <div class="ico-wrap">
                                               <span class="mbr-iconfont fa-volume-up fa"></span>
                                            </div>
                                            <div class="text-wrap vcenter">
                                               <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span> Challenge | Set up a sustainable workflow </span></h2>
-                                              <p> How to set up FtS such that it is effective yet does not require extensive time and energy of employees? </p>
                                            </div>
-                                        </div>
                                      </div>
-                                     <div class="col-lg-6 mbr-col-md-10">
                                         <div class="wrap">
                                            <div class="ico-wrap">
                                               <span class="mbr-iconfont fa-volume-up fa"></span>
@@ -318,11 +323,8 @@
                                            <div class="text-wrap vcenter">
                                               <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">
                                               <span> Challenge | Limit out-of-office hour working </span></h>
-                                              <p> How can one ensure that employees do not have to work outside office hours? </p>
                                            </div>
                                         </div>
-                                     </div>
-                                     <div class="col-lg-6 mbr-col-md-10">
                                         <div class="wrap">
                                            <div class="ico-wrap">
                                               <span class="mbr-iconfont fa-volume-up fa"></span>
@@ -330,51 +332,31 @@
                                            <div class="text-wrap vcenter">
                                               <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">
                                               <span> Challenge | Urgent need of co-ordination </span></h>
-                                              <p>How to address emergency situations within FtS? Especially when people are only available sequentially.</p>
                                            </div>
                                         </div>
-                                     </div>
-                                     <div class="col-lg-6 mbr-col-md-10">
                                         <div class="wrap" >
-                                           <div class="ico-wrap">
-                                              <span class="mbr-iconfont fa-volume-up fa"></span>
-                                           </div>
+
                                            <div class="text-wrap vcenter">
                                               <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">
                                               <span> Challenge | Addressing Scalability</span></h>
-                                              <p>
-                                                 Scalability is a common problem in the world of technological businesses.
-                                              </p>
+
                                            </div>
                                         </div>
                                      </div>
-                                  </div>
-                                  <p>
-                                     (Ågerfalk et al. 2005) defines temporal distance as the measure of dislocation in time experienced by the two parties how wish to interact. We will refer to this as the time-one challenge. (Olsson, Helena (2006)) did a study where they conducted interviews with managers, project leaders and technical staff regarding Follow the Sun. In these interviews, the project manager of Intel states that usually, the higher up on the hierarchy one is, the more flexibility in time is expected from them. This means that managers can be subject to work-related calls at 10 or 11 pm at night. The manager of HP states that the lag of responses can be frustrating and technical staff may need to go out of their way to keep up. This can result in the burnout of people. This raises a couple of challenges in FtS surrounding project managers. Managers have to make sure that the workflow is sustainable for their technical staff, to avoid the burnout of their staff. Managers also are responsible for taking charge when urgent situations occur. Temporal distance may lead to lag of responses which can cost time in such situations. So, within the general challenges of co-ordination, we formulate these new challenges.
-                                  </p>
-                                  <p>
-                                     Regarding scalability, many businesses grow rapidly and might resort to globally distirbuted teams. In these cases, the rapid growth might be the reason why FtS is failing. The teams are not prepared to deal with the changes, thus problems manifest at the very beginning.
-                                  </p>
                                </div>
                             </div>
-                         </div>
                          <!-- Trigger/Open The Modal -->
-                         <button class="button" >Technical Role</button>
+                         <button class="button" data-modal="ModalC2" onclick="displayModal(this)">Technical Role</button>
                          <!-- The Modal -->
-                         <div id="myModal2" class="modal">
+                         <div id="ModalC2" class="modal">
                             <!-- Modal content -->
                             <div class="modal-content">
-                               <span class="close">×</span>
+                              <span class="close" onclick="closeDialog(this)">&times;</span>
                                <div class="modal-body">
-                                  <div class="col-lg-6 mbr-col-md-10">
                                      <div class="wrap" >
-                                        <div class="ico-wrap">
-                                           <span class="mbr-iconfont fa-volume-up fa"></span>
-                                        </div>
                                         <div class="text-wrap vcenter">
                                            <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span> Challenge | Software infrastructure and architecture</span></h2>
                                         </div>
-                                     </div>
                                   </div>
                                   <p>
                                      One interview shows that an architect in HP has to check his e-mail at night so as to not lag behind in conversation. The project manager of Fidelity states that staff infidelity can often feel like they have no control over the process due to the waiting of responses.(Treinen & Miller-Frost, 2006) lists that it is important to specify a level of detail within the hand-offs to ensure that there is clarity and understanding of the hand-off work. Another aspect mentioned is that source code management processes and infrastructure should be defined well. FtS depends on two variables, the teams and also the software. The software should be designed such that its architecture supports FtS and distributed development in general.
@@ -383,62 +365,60 @@
                             </div>
                          </div>
                       </div>
-                   </div>
+                    </div>
                    <div class="card">
                       <div class="card-body">
                          <div class="card-title" style="color:#313B3B">Communication</div>
                          <div class="divider"></div>
                          <p style="text-align: left"></p>
-                         <button class="button" id="button"> Managerial Role</button>
+                         <button class="button" data-modal="ModalC3" onclick="displayModal(this)"> Managerial Role</button>
                          <!-- The Modal -->
-                         <div id="myModal3" class="modal">
+                         <div id="ModalC3" class="modal">
                             <!-- Modal content -->
                             <div class="modal-content">
-                               <span class="close">×</span>
+                              <span class="close" onclick="closeDialog(this)">&times;</span>
                                <div class="modal-body">
-                                  <div class="row mbr-justify-content-center">
-                                     <div class="col-lg-6 mbr-col-md-10">
-                                        <div class="wrap" >
-                                           <div class="ico-wrap">
-                                              <span class="mbr-iconfont fa-volume-up fa"></span>
-                                           </div>
-                                           <div class="text-wrap vcenter">
-                                              <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span> Challenge | Managerial Supervision</span></h2>
-                                           </div>
+
+                                  <p>We introduce a challenge of supervision here. From a software development perspective, an agile method works well however an agile method does not immediately relive the responsibilities of the manager to keep an overall supervision of the different teams. With the agile methods, distributed nature and temporal differences, keeping an up to date overview can be hard. A lack of overview can create discrepancies between want client wants, and what can actually be built. If the client requests a feature, perhaps consultations need to be organized with multiple teams to crave out its feasibility and cost estimation. Thus, we introduce the challenge of Supervision. </p>
+                               </div>
+                               <div class="row mbr-justify-content-center">
+                                  <div class="col-lg-6 mbr-col-md-10">
+                                     <div class="wrap" >
+
+                                        <div class="text-wrap vcenter">
+                                           <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span> Challenge | Managerial Supervision</span></h2>
                                         </div>
                                      </div>
                                   </div>
-                                  <p>We introduce a challenge of supervision here. From a software development perspective, an agile method works well however an agile method does not immediately relive the responsibilities of the manager to keep an overall supervision of the different teams. With the agile methods, distributed nature and temporal differences, keeping an up to date overview can be hard. A lack of overview can create discrepancies between want client wants, and what can actually be built. If the client requests a feature, perhaps consultations need to be organized with multiple teams to crave out its feasibility and cost estimation. Thus, we introduce the challenge of Supervision. </p>
                                </div>
                             </div>
                          </div>
                          <!-- Trigger/Open The Modal -->
-                         <button class="button">Technical Role</button>
+                         <button class="button" data-modal="ModalC4" onclick="displayModal(this)">Technical Role</button>
                          <!-- The Modal -->
-                         <div id="myModal4" class="modal">
+                         <div id="ModalC4" class="modal">
                             <!-- Modal content -->
                             <div class="modal-content">
-                               <span class="close">×</span>
+                              <span class="close" onclick="closeDialog(this)">&times;</span>
                                <div class="modal-body">
-                                  <div class="row mbr-justify-content-center">
-                                     <div class="col-lg-6 mbr-col-md-10">
-                                        <div class="wrap">
-                                           <div class="ico-wrap">
-                                              <span class="mbr-iconfont fa-volume-up fa"></span>
-                                           </div>
-                                           <div class="text-wrap vcenter">
-                                              <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span> Challenge | Beyond video communication</span></h2>
-                                              <p> </p>
-                                           </div>
-                                        </div>
-                                     </div>
-                                  </div>
+
                                   <p>
                                      This hypothesis may seem like a slight contradiction to a best practice in GDSE of using video communication. However, we suspect that there are cases where video communication may not be possible or even preferable. Yet, we struggle to find literature and studies on what are the best measures on communication in GDSE, beyond video.Low bandwidth or a crowded office space may result in poor video communication. Depending on the region the team is working in, this can also be discussed. Daily hand-offs, SCRUMs are daily time-consuming tasks. Setting up video communication may add to this time-consumption. This may not be sustainable in the long-run. Follow-the-Sun may require employees to work out of office hours. In these cases, video communication may not be desirable for one of the parties.
                                   </p>
                                   <p>
                                      The challenge here is to establish what method of communication suits what situation, and its effectiveness. For example, intuitively, the best alternative to video communication seems like an audio communication (phone call). However, if the teams have language barriers, documents that can be put into a translator may be more viable. Also, in situations where communication needs to be made out of office hours, an e-mail can ensure the information is reached rather than trying to call until the party picks up.
                                   </p>
+                               </div>
+                               <div class="row mbr-justify-content-center">
+                                  <div class="col-lg-6 mbr-col-md-10">
+                                     <div class="wrap">
+
+                                        <div class="text-wrap vcenter">
+                                           <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span> Challenge | Beyond video communication</span></h2>
+                                           <p> </p>
+                                        </div>
+                                     </div>
+                                  </div>
                                </div>
                             </div>
                          </div>
@@ -449,19 +429,20 @@
                          <div class="card-title" style="color:#313B3B">Culture </div>
                          <div class="divider"></div>
                          <p style="text-align: left"></p>
-                         <button class="button" id="button">Managerial Role</button>
+                         <button class="button" data-modal="ModalC5" onclick="displayModal(this)">Managerial Role</button>
                          <!-- The Modal -->
-                         <div id="myModal5" class="modal">
+                         <div id="ModalC5" class="modal">
                             <!-- Modal content -->
                             <div class="modal-content">
-                               <span class="close">×</span>
+                              <span class="close" onclick="closeDialog(this)">&times;</span>
                                <div class="modal-body">
+
+                                  <p> In the study conducted by (Olsson, Helena (2006)), the manager of Intel states that they often use formalized writing to overcome language barriers. Furthermore, the project manager at Fidelity says that most employees are well-traveled and this contributes in understanding different cultures. Questions like how many holidays are there in your country and what is the normal timings of working in your city/country should be asked during meetings. This will give an idea to Team A of when to expect delays/lower efficiencies or even no work at all. Not only do these holiday timings differ within cultures, but multi-cultured countries may have an abundance of holidays. For example, India celebrates holidays from multiple religions (providing public holidays and school vacations to children). Here, one can also establish a personal understanding of which holidays Team B is interested in the most. (Maynard, n.d.) described the different Many countries work from 11 to 21:00 at night whilst others work on a 9am to 5pm schedule. Establishing this can save missed times within the day.
+                                  </p>
                                   <div class="row mbr-justify-content-center">
                                      <div class="col-lg-6 mbr-col-md-10">
                                         <div class="wrap">
-                                           <div class="ico-wrap">
-                                              <span class="mbr-iconfont fa-volume-up fa"></span>
-                                           </div>
+
                                            <div class="text-wrap vcenter">
                                               <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span> Challenge | Understanding work culture </span></h2>
                                               <p> </p>
@@ -469,35 +450,32 @@
                                         </div>
                                      </div>
                                   </div>
-                                  <p> In the study conducted by (Olsson, Helena (2006)), the manager of Intel states that they often use formalized writing to overcome language barriers. Furthermore, the project manager at Fidelity says that most employees are well-traveled and this contributes in understanding different cultures. Questions like how many holidays are there in your country and what is the normal timings of working in your city/country should be asked during meetings. This will give an idea to Team A of when to expect delays/lower efficiencies or even no work at all. Not only do these holiday timings differ within cultures, but multi-cultured countries may have an abundance of holidays. For example, India celebrates holidays from multiple religions (providing public holidays and school vacations to children). Here, one can also establish a personal understanding of which holidays Team B is interested in the most. (Maynard, n.d.) described the different Many countries work from 11 to 21:00 at night whilst others work on a 9am to 5pm schedule. Establishing this can save missed times within the day.
-                                  </p>
                                </div>
                             </div>
                          </div>
                          <!-- Trigger/Open The Modal -->
-                         <button class="button">Technical Role</button>
+                         <button class="button" data-modal="ModalC6" onclick="displayModal(this)">Technical Role</button>
                          <!-- The Modal -->
-                         <div id="myModal6" class="modal">
+                         <div id="ModalC6" class="modal">
                             <!-- Modal content -->
                             <div class="modal-content">
-                               <span class="close">×</span>
+                              <span class="close" onclick="closeDialog(this)">&times;</span>
                                <div class="modal-body">
-                                  <div class="row mbr-justify-content-center">
-                                     <div class="col-lg-6 mbr-col-md-10">
-                                        <div class="wrap">
-                                           <div class="ico-wrap">
-                                              <span class="mbr-iconfont fa-volume-up fa"></span>
-                                           </div>
-                                           <div class="text-wrap vcenter">
-                                              <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span> Challenge | Feedback Sessions</span></h2>
-                                              <p> </p>
-                                           </div>
-                                        </div>
-                                     </div>
-                                  </div>
+
                                   <p>
                                      The challenge here is for the development team to understand the feedback culture of an office as well. Some countries are very direct with feedback whereas in other countries, this can be seen as rude. This challenge is about understanding how to formulate a feedback mechanism that everyone feels comfortable with. We hypothesize that Feedback is an essential part of building trust within different teams. Perhaps, misunderstandings could be avoided by setting a framework for giving and receiving feedback between distributed teams.
                                   </p>
+                               </div>
+                               <div class="row mbr-justify-content-center">
+                                  <div class="col-lg-6 mbr-col-md-10">
+                                     <div class="wrap">
+
+                                        <div class="text-wrap vcenter">
+                                           <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span> Challenge | Feedback Sessions</span></h2>
+                                           <p> </p>
+                                        </div>
+                                     </div>
+                                  </div>
                                </div>
                             </div>
                          </div>
