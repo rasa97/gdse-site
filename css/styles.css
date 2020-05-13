@@ -1696,10 +1696,14 @@ textarea:hover {
   background: #b3aca7;
   color: #e2dedb;
 }
-
-#what, #why, #usage, #proscons, #modelling #quiz{
+	
+#why, #usage, #proscons, #modelling #quiz{
 	height: 100vh;
 }
+#what{
+	height: 175vh
+}
+
 #submit {
   padding: 0;
   margin: -5px 0px 0px 0px;
