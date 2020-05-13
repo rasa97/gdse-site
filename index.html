@@ -14,6 +14,8 @@
 	<link href="css/magnific-popup.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
     <link rel="icon" href="https://images.vexels.com/media/users/3/145140/isolated/preview/49015111c7e7e8bf8d34a0ac0f76f171-icono-de-peque--as-vigas-onduladas-del-sol-by-vexels.png">
+
+    <script src="js/modelling.js"></script>
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
 
@@ -460,11 +462,47 @@
         <div class="header-content">
             <div class="container">
                 <div class="row">
-                    <form id="form" class="topBefore">
-                        <input id="fact1" type="text" placeholder="FACTOR1">
-                        <input id="fact2" type="text" placeholder="FACTOR2">
-                        <input id="submit" type="submit" value="GO!">
-                    </form>
+                    <div class="col-lg-6 col-xl-6">
+                        <form id="form" class="topBefore">
+                            Main Company at <select id="countries" class="selectors">
+                                <option value="SYD">Sydney</option>
+                                <option value="TKY">Tokyo</option>
+                                <option value="BJG">Beijing</option>
+                                <option value="JKR">Jakarta</option>
+                                <option value="BLR">Bangalore</option>
+                                <option value="AMS" selected>Amsterdam</option>
+                                <option value="LDN">London</option>
+                                <option value="NY">New York</option>
+                                <option value="LA">Los Angeles</option>
+                                <option value="HNL">Honolulu</option>
+                            </select>
+                            <br/>
+                            having
+                            <select id="teams" class="selectors">
+                                <option value=1>one</option>
+                                <option value=2>two</option>
+                                <option value=3 selected>three</option>
+                            </select> partners
+                            <br/>
+                            and <input id="jobs" type="number" value="60"> jobs
+                            <br/>
+                            <button type="button" onclick="start(document.getElementById('countries').value, document.getElementById('teams').value, document.getElementById('jobs').value)" style="background: transparent;  margin-top:3rem">submit</button>
+                        </form>
+                    </div>
+                    <div class="col-lg-6 col-xl-6" id="resultID">
+                        If <span id="whichCountry"></span> works alone, it costs $<span id="normalCost"></span> and takes <span id="normalDays"></span> days.
+
+                        <br/>
+                        Using FtS, the two important results are : 
+                        <br/>
+                        Minimum cost of $<span id="minCostMoney"></span> that lasts <span id="minCostDays"></span> days. 
+                        <br/>
+                        Partners : <span id="minCostPartners"></span>
+                        <br/>
+                        Minimum time of <span id="minDaysTime"></span> days that costs $<span id="minDaysMoney"></span>.
+                        <br/>
+                        Partners : <span id="minTimePartners"></span>
+                    </div>
                 </div>
             </div>
         </div>
