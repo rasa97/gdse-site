@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Follow the Sun Principle Globally Distributed Software Engineering GDSE">
-    
+
     <title>Follow The Sun</title>
-    
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/fontawesome-all.css" rel="stylesheet">
@@ -18,7 +18,7 @@
     <script src="js/modelling.js"></script>
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
-    
+
 	<div class="spinner-wrapper">
         <div class="spinner">
             <div class="bounce1"></div>
@@ -26,13 +26,13 @@
             <div class="bounce3"></div>
         </div>
     </div>
-    
+
 
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
         <div class="container">
 
             <a class="navbar-brand logo-text page-scroll" href="index.html">GDSE'19</a>
-            
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-awesome fas fa-bars"></span>
                 <span class="navbar-toggler-awesome fas fa-times"></span>
@@ -68,7 +68,7 @@
             </div>
         </div>
     </nav>
-    
+
 
     <header id="what" class="header">
         <div class="header-content">
@@ -91,7 +91,7 @@
             </div>
         </div>
     </header>
-    
+
 
     <div id="why" class="tabs">
         <div class="container">
@@ -106,7 +106,7 @@
         </div>
     </div>
 
-    
+
     <div id="how" class="basic-1">
         <div class="container">
             <div class="row">
@@ -147,73 +147,315 @@
         </div>
     </div>
 
-
+    <!-- ***********************************************************************Manishas Code************************************************************************************* -->
     <div id="challenges" class="cards-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="h1-heading" style="margin-bottom: 200px; font-size: 100px;">CHALLENGES</h1>
+       <div class="container">
+          <div class="row">
+             <div class="col-lg-12">
+                <h1 class="h1-heading" style="margin-bottom: 100px; font-size: 100px;">CHALLENGES</h1>
+             </div>
+          </div>
+          <div class="row">
+             <div class="col-lg-12">
+                <p class="p-large"> With rapidly evolving technology and tools, challenges that were once present in FtS may manifest in a different manner in today's day and age.
+                   This section will give an overview on common challenges studied in literature. You can also find novel challenges proposed by us.
+                   These novel challenges can be seen as hypothesis formulated by us, and are mainly based on case studies and experience. A challenge is considered novel if it does not
+                   appear in  (Kroll, n.d.).  (Kroll, n.d.) is a systematic literature review paper on challenges and best practices in Follow the Sun.
+                </p>
+                <p class="p-large"> (Kroll, 2013.) mentions a list of challenges and best practices to conduct when trying to implement FtS. (Kroll, 2013.) ranks challenges and practices based on the frequency that they occur within the literature. We define notable challenges as ones that were high ranks. The challenges are divided into three main categories: coordination, communication and culture. </p>
+                <p class="p-large">  From the managerial perspective, aspects such as time-zone overlap, team building, co-ordination costs, number of sites and geographical dispersion can become challenges.
+                   From the developer's perspective, aspects such as daily hand-off cycles, loss of communication richness, technical difficulties and different technical backgrounds may persist as challenges.
+                </p>
+                <p class="p-large"> We divide the challenges into two roles, one from a managerial perspective and two, from a developer perspective.</p>
+                <div class="row">
+                   <div class="card">
+                      <div class="card-body">
+                         <div class="card-title">Co-ordination</div>
+                         <div class="divider"></div>
+                         <p style="text-align: left"></p>
+                         <button class="button" id="button"> Managerial Role</button>
+                         <!-- The Modal -->
+                         <div id="myModal" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                               <span class="close">×</span>
+                               <div class="modal-body">
+                                  <div class="row mbr-justify-content-center">
+                                     <div class="col-lg-6 mbr-col-md-10">
+                                        <div class="wrap" >
+                                           <div class="ico-wrap">
+                                              <span class="mbr-iconfont fa-volume-up fa"></span>
+                                           </div>
+                                           <div class="text-wrap vcenter">
+                                              <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span> Challenge | Set up a sustainable workflow </span></h2>
+                                              <p> How to set up FtS such that it is effective yet does not require extensive time and energy of employees? </p>
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="col-lg-6 mbr-col-md-10">
+                                        <div class="wrap">
+                                           <div class="ico-wrap">
+                                              <span class="mbr-iconfont fa-volume-up fa"></span>
+                                           </div>
+                                           <div class="text-wrap vcenter">
+                                              <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">
+                                              <span> Challenge | Limit out-of-office hour working </span></h>
+                                              <p> How can one ensure that employees do not have to work outside office hours? </p>
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="col-lg-6 mbr-col-md-10">
+                                        <div class="wrap">
+                                           <div class="ico-wrap">
+                                              <span class="mbr-iconfont fa-volume-up fa"></span>
+                                           </div>
+                                           <div class="text-wrap vcenter">
+                                              <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">
+                                              <span> Challenge | Urgent need of co-ordination </span></h>
+                                              <p>How to address emergency situations within FtS? Especially when people are only available sequentially.</p>
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="col-lg-6 mbr-col-md-10">
+                                        <div class="wrap" >
+                                           <div class="ico-wrap">
+                                              <span class="mbr-iconfont fa-volume-up fa"></span>
+                                           </div>
+                                           <div class="text-wrap vcenter">
+                                              <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">
+                                              <span> Challenge | Addressing Scalability</span></h>
+                                              <p>
+                                                 Scalability is a common problem in the world of technological businesses.
+                                              </p>
+                                           </div>
+                                        </div>
+                                     </div>
+                                  </div>
+                                  <p>
+                                     (Ågerfalk et al. 2005) defines temporal distance as the measure of dislocation in time experienced by the two parties how wish to interact. We will refer to this as the time-one challenge. (Olsson, Helena (2006)) did a study where they conducted interviews with managers, project leaders and technical staff regarding Follow the Sun. In these interviews, the project manager of Intel states that usually, the higher up on the hierarchy one is, the more flexibility in time is expected from them. This means that managers can be subject to work-related calls at 10 or 11 pm at night. The manager of HP states that the lag of responses can be frustrating and technical staff may need to go out of their way to keep up. This can result in the burnout of people. This raises a couple of challenges in FtS surrounding project managers. Managers have to make sure that the workflow is sustainable for their technical staff, to avoid the burnout of their staff. Managers also are responsible for taking charge when urgent situations occur. Temporal distance may lead to lag of responses which can cost time in such situations. So, within the general challenges of co-ordination, we formulate these new challenges.
+                                  </p>
+                                  <p>
+                                     Regarding scalability, many businesses grow rapidly and might resort to globally distirbuted teams. In these cases, the rapid growth might be the reason why FtS is failing. The teams are not prepared to deal with the changes, thus problems manifest at the very beginning.
+                                  </p>
+                               </div>
+                            </div>
+                         </div>
+                         <!-- Trigger/Open The Modal -->
+                         <button class="button">Technical Role</button>
+                         <!-- The Modal -->
+                         <div id="myModal2" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                               <span class="close">×</span>
+                               <div class="modal-body">
+                                  <div class="col-lg-6 mbr-col-md-10">
+                                     <div class="wrap" >
+                                        <div class="ico-wrap">
+                                           <span class="mbr-iconfont fa-volume-up fa"></span>
+                                        </div>
+                                        <div class="text-wrap vcenter">
+                                           <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span> Challenge | Software infrastructure and architecture</span></h2>
+                                        </div>
+                                     </div>
+                                  </div>
+                                  <p>
+                                     One interview shows that an architect in HP has to check his e-mail at night so as to not lag behind in conversation. The project manager of Fidelity states that staff infidelity can often feel like they have no control over the process due to the waiting of responses.(Treinen & Miller-Frost, 2006) lists that it is important to specify a level of detail within the hand-offs to ensure that there is clarity and understanding of the hand-off work. Another aspect mentioned is that source code management processes and infrastructure should be defined well. FtS depends on two variables, the teams and also the software. The software should be designed such that its architecture supports FtS and distributed development in general.
+                                  </p>
+                               </div>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="card">
+                      <div class="card-body">
+                         <div class="card-title">Communication</div>
+                         <div class="divider"></div>
+                         <p style="text-align: left"></p>
+                         <button class="button" id="button"> Managerial Role</button>
+                         <!-- The Modal -->
+                         <div id="myModal3" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                               <span class="close">×</span>
+                               <div class="modal-body">
+                                  <div class="row mbr-justify-content-center">
+                                     <div class="col-lg-6 mbr-col-md-10">
+                                        <div class="wrap" >
+                                           <div class="ico-wrap">
+                                              <span class="mbr-iconfont fa-volume-up fa"></span>
+                                           </div>
+                                           <div class="text-wrap vcenter">
+                                              <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span> Challenge | Managerial Supervision</span></h2>
+                                           </div>
+                                        </div>
+                                     </div>
+                                  </div>
+                                  <p>We introduce a challenge of supervision here. From a software development perspective, an agile method works well however an agile method does not immediately relive the responsibilities of the manager to keep an overall supervision of the different teams. With the agile methods, distributed nature and temporal differences, keeping an up to date overview can be hard. A lack of overview can create discrepancies between want client wants, and what can actually be built. If the client requests a feature, perhaps consultations need to be organized with multiple teams to crave out its feasibility and cost estimation. Thus, we introduce the challenge of Supervision. </p>
+                               </div>
+                            </div>
+                         </div>
+                         <!-- Trigger/Open The Modal -->
+                         <button class="button">Technical Role</button>
+                         <!-- The Modal -->
+                         <div id="myModal4" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                               <span class="close">×</span>
+                               <div class="modal-body">
+                                  <div class="row mbr-justify-content-center">
+                                     <div class="col-lg-6 mbr-col-md-10">
+                                        <div class="wrap">
+                                           <div class="ico-wrap">
+                                              <span class="mbr-iconfont fa-volume-up fa"></span>
+                                           </div>
+                                           <div class="text-wrap vcenter">
+                                              <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span> Challenge | Beyond video communication</span></h2>
+                                              <p> </p>
+                                           </div>
+                                        </div>
+                                     </div>
+                                  </div>
+                                  <p>
+                                     This hypothesis may seem like a slight contradiction to a best practice in GDSE of using video communication. However, we suspect that there are cases where video communication may not be possible or even preferable. Yet, we struggle to find literature and studies on what are the best measures on communication in GDSE, beyond video.Low bandwidth or a crowded office space may result in poor video communication. Depending on the region the team is working in, this can also be discussed. Daily hand-offs, SCRUMs are daily time-consuming tasks. Setting up video communication may add to this time-consumption. This may not be sustainable in the long-run. Follow-the-Sun may require employees to work out of office hours. In these cases, video communication may not be desirable for one of the parties.
+                                  </p>
+                                  <p>
+                                     The challenge here is to establish what method of communication suits what situation, and its effectiveness. For example, intuitively, the best alternative to video communication seems like an audio communication (phone call). However, if the teams have language barriers, documents that can be put into a translator may be more viable. Also, in situations where communication needs to be made out of office hours, an e-mail can ensure the information is reached rather than trying to call until the party picks up.
+                                  </p>
+                               </div>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="card">
+                      <div class="card-body">
+                         <div class="card-title">Culture</div>
+                         <div class="divider"></div>
+                         <p style="text-align: left"></p>
+                         <button class="button" id="button">Managerial Role</button>
+                         <!-- The Modal -->
+                         <div id="myModal5" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                               <span class="close">×</span>
+                               <div class="modal-body">
+                                  <div class="row mbr-justify-content-center">
+                                     <div class="col-lg-6 mbr-col-md-10">
+                                        <div class="wrap">
+                                           <div class="ico-wrap">
+                                              <span class="mbr-iconfont fa-volume-up fa"></span>
+                                           </div>
+                                           <div class="text-wrap vcenter">
+                                              <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span> Challenge | Understanding work culture </span></h2>
+                                              <p> </p>
+                                           </div>
+                                        </div>
+                                     </div>
+                                  </div>
+                                  <p> In the study conducted by (Olsson, Helena (2006)), the manager of Intel states that they often use formalized writing to overcome language barriers. Furthermore, the project manager at Fidelity says that most employees are well-traveled and this contributes in understanding different cultures. Questions like how many holidays are there in your country and what is the normal timings of working in your city/country should be asked during meetings. This will give an idea to Team A of when to expect delays/lower efficiencies or even no work at all. Not only do these holiday timings differ within cultures, but multi-cultured countries may have an abundance of holidays. For example, India celebrates holidays from multiple religions (providing public holidays and school vacations to children). Here, one can also establish a personal understanding of which holidays Team B is interested in the most.(Maynard, n.d.) described the different Many countries work from 11 to 21:00 at night whilst others work on a 9am to 5pm schedule. Establishing this can save missed times within the day.
+                                  </p>
+                               </div>
+                            </div>
+                         </div>
+                         <!-- Trigger/Open The Modal -->
+                         <button class="button">Technical Role</button>
+                         <!-- The Modal -->
+                         <div id="myModal6" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                               <span class="close">×</span>
+                               <div class="modal-body">
+                                  <div class="row mbr-justify-content-center">
+                                     <div class="col-lg-6 mbr-col-md-10">
+                                        <div class="wrap">
+                                           <div class="ico-wrap">
+                                              <span class="mbr-iconfont fa-volume-up fa"></span>
+                                           </div>
+                                           <div class="text-wrap vcenter">
+                                              <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span> Challenge | Feedback Sessions</span></h2>
+                                              <p> </p>
+                                           </div>
+                                        </div>
+                                     </div>
+                                  </div>
+                                  <p>
+                                     The challenge here is for the development team to understand the feedback culture of an office as well. Some countries are very direct with feedback whereas in other countries, this can be seen as rude. This challenge is about understanding how to formulate a feedback mechanism that everyone feels comfortable with. We hypothesize that Feedback is an essential part of building trust within different teams. Perhaps, misunderstandings could be avoided by setting a framework for giving and receiving feedback between distributed teams.
+                                  </p>
+                               </div>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="card-title">ONE</div>
-                            <div class="divider"></div>
-                            <p style="text-align: justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="card-title">TWO</div>
-                            <div class="divider"></div>
-                            <p style="text-align: justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="card-title">TWO</div>
-                            <div class="divider"></div>
-                            <p style="text-align: justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+             </div>
+          </div>
+       </div>
     </div>
 
-    <div id="proscons" class="tabs" style="background-color: black;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-xl-6">
-                    <div class="text-container">
-                        <h1 style="color: green;">pros</h1>
-                        <p class="p-large" style="color: white; border-bottom: 2px solid white; margin-top:30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                        <p class="p-large" style="color: white; border-bottom: 2px solid white; margin-top:30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                        <p class="p-large" style="color: white; border-bottom: 2px solid white; margin-top:30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                        <p class="p-large" style="color: white; border-bottom: 2px solid white; margin-top:30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                        <p class="p-large" style="color: white; border-bottom: 2px solid white; margin-top:30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                    </div>
+    <div id="proscons" class="tabs" style="background-color: black; height: auto;">
+       <div class="container">
+          <div class="row">
+             <div class="col-lg-6 col-xl-6">
+                <div class="text-container">
+                   <h1 style="color: green;">pros</h1>
+                   <p class="p-large" style="color: white; border-bottom: 2px solid white; margin-top:30px;">     Reduced development costs. </p>
+                   <p> (Carmel, E. and Agarwal, R. (2001)), Ebert, C. and De Neve, P. (2001) state that leveraging low labor costs can be a benefit. (Conchúir, Holmström, Ågerfalk, & Fitzgerald, 2006) conducted interviews with companies, wherein it claims that Fidelity has to pay its workers located in India about 50% less than its Irish team. In fact, the paper mentions that companies describe reduced development costs as one of the main drivers of Follow the Sun.  </p>
+                   <p class="p-large" style="color: white; border-bottom: 2px solid white; margin-top:30px;">Cross-site modularization of development work</p>
+                   <p>
+                      Cross site modularization of software allows for release of separate modules to the clients without requiring all modules to be present (Conchúir, Holmström, Ågerfalk, & Fitzgerald, 2006). We presume that cross-site modularization may also manifest itself as an unintended benefit of follow the sun. Due to the challenges described above, companies might try to reduce dependencies amongst cross-site teams, via modularization.
+                   </p>
+                   <p class="p-large" style="color: white; border-bottom: 2px solid white; margin-top:30px;">Closer Proximity to Market and Customer</p>
+                   <p>
+                      With FtS, communication between customer and development teams can be shortened. Alternatively, customers can experience a faster rate of product delivery since in their perspective, only time-zone is relevant. For example, if a client requests a new feature at around 5 pm. Then, with distributed teams, a team in a different time-zone can start with the implementation.
+                   </p>
+                   <p class="p-large" style="color: white; border-bottom: 2px solid white; margin-top:30px;">Leverage the access to large skilled labor pool</p>
+                   <p>
+                      Access to large skilled labor pool is a benefit of globally distributed software development. With follow-the-sun, division of tasks can be set such that this is leveraged. FtS would allow for sequential development of software from different locations.
+                   </p>
+                   <p class="p-large" style="color: white; border-bottom: 2px solid white; margin-top:30px;">Beneficial when a large percentage of issues are relatively simple</p>
+                   <p>
+                      We speculate that FtS works well when distributed tasks are simple or isolated, (e.g. 24-hour technical support and data processing).
+                   </p>
+                   <p class="p-large" style="color: white; border-bottom: 2px solid white; margin-top:30px;">Superior documentation and knowledge dissemination</p>
+                   <p>
+                      This benefit is mentioned in (Carmel, E. and Agarwal, R. (2001). The reasoning stated is that the nature of communication in FtS requires a dynamic approach. Teams are required to maintain informal knowledge sharing as well as formal knowledge repositories (daily hand-offs). This prompts for a enriched archive of informal and formal knowledge.
+                   </p>
                 </div>
-
-                <div class="col-lg-6 col-xl-6">
-                    <div class="text-container">
-                        <h1 style="color: red;">cons</h1>
-                        <p class="p-large" style="color: white; border-bottom: 2px solid white; margin-top:30px;"">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                        <p class="p-large" style="color: white; border-bottom: 2px solid white; margin-top:30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                        <p class="p-large" style="color: white; border-bottom: 2px solid white; margin-top:30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                        <p class="p-large" style="color: white; border-bottom: 2px solid white; margin-top:30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                        <p class="p-large" style="color: white; border-bottom: 2px solid white; margin-top:30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                    </div>
+             </div>
+             <div class="col-lg-6 col-xl-6">
+                <div class="text-container">
+                   <h1 style="color: red;">cons</h1>
+                   <p class="p-large" style="color: white; border-bottom: 2px solid white; margin-top:30px;">Loss of informal communication</p>
+                   <p>
+                      FtS prompts a hand-off culture that requires a level of detail to be present. This may lower the perception of informal communication that could be maintained if only video communication was sufficient.
+                   </p>
+                   <p class="p-large" style="color: white; border-bottom: 2px solid white; margin-top:30px;">Handoff overhead</p>
+                   <p>
+                      The daily hand-off routines require task decomposition and lead to a considerable overhead (Carmel, E. and Agarwal, R. (2001). Hand-off overhead can also amplify if the task done previously is not completely understood and inevitably delays occur. This may create piling work for the team receiving the hand-offs.
+                   </p>
+                   <p class="p-large" style="color: white; border-bottom: 2px solid white; margin-top:30px;">Increased costs (delay, rework, setup)</p>
+                   <p>
+                      Intuitively, setting up a working FtS is a commit of resources, whether it be money or time. It is also a constant commitment of resources, since one change in either working site may lead to an additional cost for all sites.
+                   </p>
+                   <p class="p-large" style="color: white; border-bottom: 2px solid white; margin-top:30px;">Infrastructure duplication</p>
+                   <p>
+                      FtS requires hardware and software to be accessible at every location (Carmel, E. and Agarwal, R. (2001). This can involve additional costs, maintenance costs, and overall increased consumption of resources.
+                   </p>
+                   <p class="p-large" style="color: white; border-bottom: 2px solid white; margin-top:30px;">False benefit of leveraging time zones effectiveness</p>
+                   <p>
+                      (Conchúir, Holmström, Ågerfalk, & Fitzgerald, 2006)'s study shows that the benefit of leveraging different time zones for faster development is a mythical benefit. In fact, for development, time zones cause unusual working hours, and reduced collaborative time.  (Carmel, 2017) found that InfoSys trains its employees to be aware of this 24-hour concept and adapt to it.
+                   </p>
+                   <p class="p-large" style="color: white; border-bottom: 2px solid white; margin-top:30px;">Discipline</p>
+                   <p>
+                      One aspect we analyze about FtS, is that it requires immense discipline from all teams involved. This discipline is required for daily hand-offs and calendar efficacy on top of the discipline required to maintain a distributed team in general. This can prove to be unsustainable in the long-run.
+                   </p>
                 </div>
-            </div>
-        </div>
+             </div>
+          </div>
+       </div>
     </div>
-    
+    <!--***********************************************************************Manishas Code************************************************************************************* -->
+
+
 
     <div id="modelling" class="tabs">
         <p id="model_heading">MODELLING</p>
@@ -265,7 +507,7 @@
             </div>
         </div>
     </div>
-    
+
     <div id="quiz_section" class="basic-1">
         <div class="container">
             <div class="row">
