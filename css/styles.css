@@ -1700,12 +1700,6 @@ textarea:hover {
 #usage, #proscons, #modelling #quiz{
 	height: 100vh;
 }
-#what{
-	height: 175vh;
-}
-#why{
-	height: 150vh;
-}
 
 #modelling{
 	background-color: white;
