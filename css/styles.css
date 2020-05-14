@@ -1757,12 +1757,13 @@ textarea:hover {
 
 .button {
   width: 100%;
-  background-color:#20b286;
+  background-color: #20b2aa;
   border: none;
   color: white;
   padding: 16px 32px;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: bold;
   margin: 4px 2px;
   opacity: 0.6;
   transition: 0.3s;
@@ -1838,14 +1839,19 @@ textarea:hover {
 
 .wrap {
     display: flex;
-    background: white;
+    background: #74a9b5;
+    opacity: 0.6;
     padding: 1rem 1rem 1rem 1rem;
     border-radius: 0.5rem;
     box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
     margin-bottom: 2rem;
     height: auto;
     width:100%;
-    background-image: linear-gradient(to right, #24c7be   , #28d173);
+
+}
+.wrap:hover {
+  background-color: #74a9b5;
+   opacity:1;
 
 }
 
