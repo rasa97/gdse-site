@@ -1431,12 +1431,12 @@ a:hover.back-to-top {
 	}
 
 	.header .image-container {
-		margin-top: 1rem;
+		margin-top: 6rem;
 		margin-left: 1.5rem;
 	}
 
 	.header .image-container .img-wrapper {
-		width: 630px;
+		width: 250px;
 	}
 
 	.header-frame {
