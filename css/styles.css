@@ -1840,7 +1840,7 @@ textarea:hover {
 .wrap {
     display: flex;
     background: #74a9b5;
-    opacity: 0.6;
+    opacity: 0.8;
     padding: 1rem 1rem 1rem 1rem;
     border-radius: 0.5rem;
     box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
