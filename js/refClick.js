@@ -9,7 +9,12 @@ const refs = {
     'conchuir2006' : 'Ó Conchúir, Holmström, Ågerfalk, & Fitzgerald, (2006). Global Software Development: Never Mind the Problems -Are There Really Any Benefits?',
     'carmel2001' : 'Carmel, E., & Agarwal, R. (2001). Tactical approaches for alleviating distance in global software development. IEEE Software, 18(2), 22–29.',
     'ebert' : 'Ebert, C., & De Neve, P. (2001). Surviving global software development. IEEE Software, 18(2), 62–69.',
-    'sangheonlee07' : 'Sangheon Lee, D. M. and J. C. M. (2007). Working time around the world. In www.ilo.org.'
+    'sangheonlee07' : 'Sangheon Lee, D. M. and J. C. M. (2007). Working time around the world. In www.ilo.org.',
+    'carmel2010' : 'Carmel, E., Espinosa, J. A., & Dubinsky, Y. (2010). “Follow the Sun” Workflow in Global Software Development. Journal of Management Information Systems, 27(1), 17–38.',
+    'carmel2009' : 'Carmel, E., Espinosa, J. A., & Dubinsky, Y. (2009). Follow The Sun Software Development: New Perspectives, Conceptual Foundation, and Exploratory Field Study. Hawaii International Conference.',
+    'herbsleb2001' : 'Herbsleb, J. D., & Moitra, D. (2001). Global software development. IEEE Software, 18(2), 16-20.',
+    'ramasubbu2007' : 'Ramasubbu, N. & Balan, R. (2007). Globally distributed software development project performance: An empirical analysis. 125-134.',
+    'espinosa2003' : 'Espinosa, J., & Carmel, E. (2003). Modeling Coordination Costs Due to Time Separation in Global Software Teams.'
 }
 
 $(function () {
