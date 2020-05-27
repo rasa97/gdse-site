@@ -14,7 +14,9 @@ const refs = {
     'carmel2009' : 'Carmel, E., Espinosa, J. A., & Dubinsky, Y. (2009). Follow The Sun Software Development: New Perspectives, Conceptual Foundation, and Exploratory Field Study. Hawaii International Conference.',
     'herbsleb2001' : 'Herbsleb, J. D., & Moitra, D. (2001). Global software development. IEEE Software, 18(2), 16-20.',
     'ramasubbu2007' : 'Ramasubbu, N. & Balan, R. (2007). Globally distributed software development project performance: An empirical analysis. 125-134.',
-    'espinosa2003' : 'Espinosa, J., & Carmel, E. (2003). Modeling Coordination Costs Due to Time Separation in Global Software Teams.'
+    'espinosa2003' : 'Espinosa, J., & Carmel, E. (2003). Modeling Coordination Costs Due to Time Separation in Global Software Teams.',
+    'vesey1992' : 'Vesey, J. T. (1992). Time-to-market: Put speed in product development. Industrial Marketing Management, 21(2), 151-158.',
+    'yapnd' : 'Yap, M. (n.d.). Follow the sun: distributed extreme programming development. Agile Development Conference (ADC’05).'
 }
 
 $(function () {
