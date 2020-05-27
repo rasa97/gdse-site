@@ -25,7 +25,10 @@ const refs = {
     'espinosa2007' : 'Espinosa, J. & Nan, Ning & Carmel, Erran. (2007). Do Gradations of Time Zone Separation Make a Difference in Performance? A First Laboratory Study. Proceedings - International Conference on Global Software Engineering, ICGSE 2007. 12-22. 10.1109/ICGSE.2007.20.',
     'cummings2009' : 'Cummings, J., Espinosa, J., & Pickering, C. (2009). Crossing Spatial and Temporal Boundaries in Globally Distributed Projects: A Relational Model of Coordination Delay. Information Systems Research. 20. 420-439. 10.1287/isre.1090.0239.',
     'godinez2007' : 'Godinez, V (2007). Sunshine 24/7: As EDS work stops in one time zone, it picks up in another. Dallas Morning News. Accessed January 2, 2007.',
-    'bweek2003' : 'Business Week (2003), The Rise of India. Published December 8, 2003.'
+    'bweek2003' : 'Business Week (2003), The Rise of India. Published December 8, 2003.',
+    'audy2011' : 'Audy, J., & Fernandes, P. (2011). Follow-the-Sun Software Development: A Controlled Experiment to Evaluate the Benefits of Adaptive and Prescriptive ApproachesProceedings of the 24th InternationalConference on SoftwareEngineering& Knowledge (SEKE 2012), 551-556.',
+    'gupta2012' : 'A. Gupta, L. Hu, T. Hedberg, C. Prendergast and I. Crk (2012). Creating the 24-Hour Knowledge FactoryInformation Systems Management, 29(2), 100-111.',
+    'pressman2007' : 'Pressman, R (2007). Software Engineering: A Practitioners Approach. New York: McGraw Hill.'
 }
 
 $(function () {
